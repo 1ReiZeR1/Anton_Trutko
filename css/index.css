@@ -1,0 +1,47 @@
+/* Мало использовал css так как подключил bootstrap */
+
+.rounded-img {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(26, 9, 9, 20);
+    padding: 0.2em;
+    margin-bottom: 1em;
+  }
+  
+  .card {
+    border-radius: 1em;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  .card:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    border-radius: 50%;
+    width: 70%;
+    margin: auto;
+  }
+  
+  @keyframes example {
+    0% {
+      color: red;
+    }
+    25% {
+      color: yellow;
+    }
+    50% {
+      color: blue;
+    }
+    100% {
+      color: green;
+    }
+  }
+  
+  h1 {
+    color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
